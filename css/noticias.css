@@ -1,0 +1,49 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 10px;
+    gap: 5px;
+    margin-left: 15%;
+}
+
+.article-1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.article-2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.article-img{
+    grid-column: 1;
+    grid-row: auto;
+}
+.noticia{
+    text-align: justify-all;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    grid-column: 2;
+    grid-row: auto;
+}
+.new{
+    text-align: justify-all;
+    grid-column: auto;
+    grid-row: auto;
+    margin-left: 15%;
+}
+.cabecera{
+    text-align: center;
+    align-content: center;
+    vertical-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 15%;
+}
+
+.imgN{
+    border-radius: 0;
+}
