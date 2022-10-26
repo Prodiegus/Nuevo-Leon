@@ -4,6 +4,7 @@
     padding-top: 10px;
     gap: 5px;
     margin-left: 15%;
+    margin-right: 10%;
 }
 
 .article-1 {
@@ -29,11 +30,25 @@
     grid-column: 2;
     grid-row: auto;
 }
+.article-3{
+    text-align: justify-all;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    grid-column: 1;
+    grid-row: 1;
+}
+.imgNew{
+    grid-column: 2;
+    grid-row: 1;
+}
 .new{
     text-align: justify-all;
     grid-column: auto;
     grid-row: auto;
     margin-left: 15%;
+    margin-right: 10%;
 }
 .cabecera{
     text-align: center;
@@ -42,6 +57,7 @@
     padding-left: 20%;
     padding-right: 20%;
     margin-left: 15%;
+    margin-right: 10%;
 }
 
 .imgN{
