@@ -4,6 +4,14 @@
     padding-top: 10px;
     gap: 10px;
 }
+
+.contenerdor2{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .item-1{
     grid-column: 1;
     grid-row: 1;

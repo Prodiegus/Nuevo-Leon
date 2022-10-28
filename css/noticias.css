@@ -39,6 +39,11 @@
     grid-column: 1;
     grid-row: 1;
 }
+
+.article-3 h3{
+    font-size: x-large;
+}
+
 .imgNew{
     grid-column: 2;
     grid-row: 1;
@@ -51,11 +56,12 @@
     margin-right: 10%;
 }
 .cabecera{
+    font-size: x-large;
     text-align: center;
     align-content: center;
     vertical-align: center;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
     margin-left: 15%;
     margin-right: 10%;
 }
