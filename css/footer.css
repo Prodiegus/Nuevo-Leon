@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2022.  Diego Fernández
+ */
+
 .containerF{
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -37,6 +41,10 @@
     text-decoration: none;
     color: grey;
 }
+.itemS a:hover{
+    display: block;
+    color: #bc214d;
+}
 
 .itemS img{
     max-width: 25px;
@@ -67,4 +75,9 @@ footer{
 
 .enlaces a{
     color: grey;
+}
+
+.enlaces a:hover{
+    display: block;
+    color: #bc214d;
 }

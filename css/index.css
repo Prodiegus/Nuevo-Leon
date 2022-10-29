@@ -1,8 +1,19 @@
+/*
+ * Copyright (c) 2022.  Diego Fernández
+ */
+
 .contenerdor{
     display: grid;
     grid-template-columns: 350px 1fr;
     padding-top: 10px;
     gap: 10px;
+}
+
+.fondo{
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    background-position-y: 62px;
+    background-size: 100%;
 }
 
 .contenerdor2{

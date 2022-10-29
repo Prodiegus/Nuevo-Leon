@@ -1,2 +1,2 @@
 
-Copyright (C) 2022 Diego Fernadez
+Copyright (C) 2022 Diego Fernández

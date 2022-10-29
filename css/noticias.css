@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2022.  Diego Fernández
+ */
+
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
