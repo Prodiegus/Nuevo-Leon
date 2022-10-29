@@ -16,7 +16,7 @@ p {
 }
 .wrapper {
     width: 80%;
-    padding: auto;
+    margin: auto;
     overflow:hidden;
 }
 header {
