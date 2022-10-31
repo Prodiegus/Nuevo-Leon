@@ -1,0 +1,84 @@
+/*
+ * Copyright (c) 2022.  Diego Fernández
+ */
+.contenerdor3{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding-top: 100px;
+    gap: 10px;
+}
+
+.centrar{
+    padding: 0 35%;
+}
+
+.separar{
+    padding: 20px 0;
+}
+
+.separar li{
+    padding: 10px 0;
+}
+
+.texto{
+    color: white;
+    background-color: #281c2c;
+}
+
+.lista{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    list-style: decimal;
+}
+.espacio{
+    padding-left: 20px;
+}
+
+.boton{
+    border: #281c2c;
+    padding: 10px 20px;
+    color: white;
+    background-color: #281c2c;
+}
+.boton:hover{
+    border: #bc214d;
+    display: block;
+    background-color: #bc214d;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    padding-top: 50px;
+    gap: 10px;
+}
+
+.container img{
+    max-width: 350px;
+}
+
+.item3-1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.item3-2{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.item3-2 h1{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: xxx-large;
+}
+
+.item3-3{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.letrachica{
+    font-size: 11px;
+}
