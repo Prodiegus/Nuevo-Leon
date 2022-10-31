@@ -57,6 +57,11 @@
     max-width: 350px;
 }
 
+a:hover{
+    display: block;
+    color: #bc214d;
+}
+
 .item3-1{
     grid-column: 1;
     grid-row: 1;
