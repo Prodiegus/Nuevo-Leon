@@ -15,6 +15,14 @@
     gap: 8px;
 }
 
+.containerS2{
+    display: grid;
+    grid-template-columns: 115px 25px;
+    gap: 8px;
+}
+.containerS2:hover a img{
+    color:#00a6ff;
+}
 .containerS:hover a img{
     color: #bc214d;
 }
@@ -37,13 +45,33 @@
     grid-row: 1;
 }
 
+.itemS2{
+    text-align: right;
+    padding-top: 30px;
+    color: grey;
+    grid-column: 2;
+    grid-row: 1;
+}
+
 .itemS a{
     text-decoration: none;
     color: grey;
 }
+
+
+.itemS2 a{
+    text-decoration: none;
+    color: grey;
+}
+
 .itemS a:hover{
     display: block;
     color: #bc214d;
+}
+
+.itemS2 a:hover{
+    display: block;
+    color: #00a6ff;
 }
 
 .itemS img{
@@ -73,11 +101,30 @@ footer{
     border-color: grey;
 }
 
+.enlaces2{
+    margin-left: 15px;
+    padding-left: 25px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    border-color: grey;
+}
+
 .enlaces a{
+    color: grey;
+}
+
+.enlaces2 a{
     color: grey;
 }
 
 .enlaces a:hover{
     display: block;
     color: #bc214d;
+}
+
+.enlaces2 a:hover{
+    display: block;
+    color: #00a6ff;
 }

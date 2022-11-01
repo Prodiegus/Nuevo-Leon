@@ -56,29 +56,9 @@ h2 {
     left: 0;
     opacity: 0;
     transition: opacity .5s;
-    background-color: rgba(188, 33, 77, 0.7);
     color: white;
+    background-color: rgba(0, 166, 255, 0.6);
 
-    /* position the text in t’ middle*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.location-title2 {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    z-index: 1;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity .5s;
-    background-color: #00a6ff;
-    color: white;
 
     /* position the text in t’ middle*/
     display: flex;
@@ -90,12 +70,8 @@ h2 {
     opacity: 1;
 }
 
-.location-listing:hover .location-title2 {
-    opacity: 1;
-}
-
 .location-listing:hover .location-image img {
-    filter: blur(2px);
+    filter: blur(1px);
 }
 
 
@@ -104,10 +80,7 @@ h2 {
     .location-title {
         opacity: 1;
     }
-    .location-title2 {
-        opacity: 1;
-    }
     .location-image img {
-        filter: blur(2px);
+        filter: blur(1px);
     }
 }

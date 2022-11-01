@@ -1,0 +1,98 @@
+/*
+ * Copyright (c) 2022.  Diego Fernández
+ */
+
+.icono{
+    margin-top: 5px;
+    max-width: 120px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+p {
+    margin-bottom: 20px;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+}
+header {
+    background: rgb(24, 63, 84);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    margin:auto;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header:hover {
+    display: block;
+    background-color: #183f54;
+}
+
+.nav li{
+    padding-top: 15px;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav {
+    width:80%; /*Le establecemos un ancho*/
+    margin:0 auto; /*Centramos automaticamente*/
+
+}
+
+.nav > li {
+    margin-right: 10%;
+    float:left;
+}
+
+.nav li a {
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color: #00a6ff;
+}
+
+.nav li ul {
+    text-align: center;
+    color:#fff;
+    background: #183f54;
+    display: none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav ul li{
+    margin-right: 100px;
+}
+
+.nav li ul li:hover {
+    display: block;
+    background-color: #00a6ff;
+}
+
+
+.nav li:hover > ul {
+    display:block;
+}
+
+.nav li ul li{
+    width: 100%;
+    padding-bottom: 8px;
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}

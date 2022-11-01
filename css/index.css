@@ -16,6 +16,13 @@
     background-size: 100%;
 }
 
+.fondo2{
+    background-image: url("../img/fondo2.png");
+    background-repeat: no-repeat;
+    background-position-y: 62px;
+    background-size: 100%;
+}
+
 .contenerdor2{
     display: grid;
     grid-template-columns: 150px 1fr;
