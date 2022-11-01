@@ -24,7 +24,17 @@
     color: white;
     background-color: #281c2c;
 }
+.edad{
+    width: 30px;
+    color: white;
+    background-color: #281c2c;
+}
 
+.muni{
+    width: 100px;
+    color: white;
+    background-color: #281c2c;
+}
 .lista{
     padding-left: 20px;
     padding-bottom: 10px;
@@ -87,3 +97,4 @@ a:hover{
 .letrachica{
     font-size: 11px;
 }
+
